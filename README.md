@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  :books: <a href="https://arxiv.org/abs/2502.09927">Paper</a>&nbsp | :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-vision-3.2-2b">HuggingFace Collection</a>&nbsp | 
+  :books: <a href="https://arxiv.org/abs/2502.09927">Paper</a>&nbsp | :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800">HuggingFace Collection</a>&nbsp | 
   :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp
 <br>
   
