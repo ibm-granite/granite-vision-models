@@ -149,7 +149,7 @@ For an example of fine-tuning Granite Vision for new tasks refer to [this notebo
 
 
 ## How to Download our Models?
-The model of choice (granite-3.1-1b-a400m-instruct in this example) can be cloned using:
+The model of choice (granite-vision-3.2-2b in this example) can be cloned using:
 ```shell
 git clone https://huggingface.co/ibm-granite/granite-vision-3.2-2b
 ```
