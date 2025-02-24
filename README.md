@@ -161,10 +161,13 @@ Plese check our [Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CODE_OF_CO
 The model cards for each model variant are available in their respective HuggingFace repository. Please visit our collection [here](https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800).
 
 ## License 
-All Granite 3.0 Language Models are distributed under [Apache 2.0](./LICENSE) license.
+All Granite Vision Models are distributed under [Apache 2.0](./LICENSE) license.
 
 ## Would you like to provide feedback?
 Please let us know your comments about our family of language models by visiting our [collection](https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800). Select the repository of the model you would like to provide feedback about. Then, go to *Community* tab, and click on *New discussion*. Alternatively, you can also post any questions/comments on our [github discussions page](https://github.com/orgs/ibm-granite/discussions).
+
+## Ethical Considerations and Limitations
+The use of Large Vision and Language Models involves risks and ethical considerations people must be aware of, including but not limited to: bias and fairness, misinformation, and autonomous decision-making. granite-vision is not the exception in this regard. Although our alignment processes include safety considerations, the model may in some cases produce inaccurate, biased, or unsafe responses to user prompts. Additionally, it remains uncertain whether smaller models might exhibit increased susceptibility to hallucination in generation scenarios due to their reduced sizes, which could limit their ability to generate coherent and contextually accurate responses. This aspect is currently an active area of research, and we anticipate more rigorous exploration, comprehension, and mitigations in this domain. Regarding ethics, a latent risk associated with all Large Language Models is their malicious utilization. We urge the community to use granite-vision with ethical intentions and in a responsible way. We recommend using this model for document understanding tasks, and note that more general vision tasks may pose higher inherent risks of triggering biased or harmful output.
 
 <!-- ## Citation
 If you find granite models useful, please cite:
