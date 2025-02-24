@@ -147,6 +147,9 @@ print(f"Generated text: {outputs[0].outputs[0].text}")
 
 For an example of fine-tuning Granite Vision for new tasks refer to [this notebook](https://huggingface.co/learn/cookbook/en/fine_tuning_granite_vision_sft_trl).
 
+### Use Granite Vision for MM RAG
+
+For an example of MM RAG using granite vision refer to [this notebook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Multimodal_RAG.ipynb).
 
 ## How to Download our Models?
 The model of choice (granite-vision-3.2-2b in this example) can be cloned using:
@@ -158,7 +161,7 @@ git clone https://huggingface.co/ibm-granite/granite-vision-3.2-2b
 Plese check our [Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CODE_OF_CONDUCT.md) to contribute to our project.
 
 ## Model Cards
-The model cards for each model variant are available in their respective HuggingFace repository. Please visit our collection [here](https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800).
+The Granite Vision model is available on HuggingFace. Please visit our collection [here](https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800).
 
 ## License 
 All Granite Vision Models are distributed under [Apache 2.0](./LICENSE) license.
