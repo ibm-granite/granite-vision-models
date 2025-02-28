@@ -43,10 +43,11 @@ We evaluated Granite Vision 3.2 model alongside other vision-language models (VL
 </br>
 
 
-## How to Use our Model?
-Currently the model supports English instructions and images (png and jpeg) as input format.
-To use our model, set `model_path` to:
+## How to Use our Models?
+Currently the models support English instructions and images (png, jpeg, etc.) as input format.
+To use our models, set `model_path` to one of the following:
 1. `ibm-granite/granite-vision-3.2-2b`
+2. `ibm-granite/granite-vision-3.1-2b-preview`
 
 ### Usage with `transformers`
 
