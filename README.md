@@ -43,8 +43,9 @@ We evaluated Granite Vision 3.2 model alongside other vision-language models (VL
 </br>
 
 
-## How to Use our Models?
-To use any of our models, pick an appropriate `model_path` from:
+## How to Use our Model?
+Currently the model supports English instructions and images (png and jpeg) as input format.
+To use our model, set `model_path` to:
 1. `ibm-granite/granite-vision-3.2-2b`
 
 ### Usage with `transformers`
@@ -151,7 +152,7 @@ For an example of fine-tuning Granite Vision for new tasks refer to [this notebo
 
 For an example of MM RAG using granite vision refer to [this notebook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/recipes/RAG/Granite_Multimodal_RAG.ipynb).
 
-## How to Download our Models?
+## How to Download our Model?
 The model of choice (granite-vision-3.2-2b in this example) can be cloned using:
 ```shell
 git clone https://huggingface.co/ibm-granite/granite-vision-3.2-2b
