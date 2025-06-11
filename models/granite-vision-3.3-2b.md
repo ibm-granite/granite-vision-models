@@ -139,6 +139,7 @@ print(f"Generated text: {outputs[0].outputs[0].text}")
 
 The GV-3.3-2b model also went through safety alignment to make sure responses are safer without affecting the model’s performance on its intended task. We carefully safety aligned the model on publicly available safety data and synthetically generated safety data. We report our safety scores on publicly available RTVLM and VLGuard datasets.
 
+|-----------|-----------|-----------|------------|------------|
 | **RTVLM Safety Score - [0,10] - Higher is Better** |
 |-----------|-----------|-----------|------------|------------|
 ||Politics|Racial|Jailbreak|Mislead|
