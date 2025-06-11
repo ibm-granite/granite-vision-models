@@ -143,7 +143,7 @@ TBD
 
 Granite-vision-3.3-2b introduces two new experimental capabilities: 
 
-(1) Image segmentation: [A notebook showing a segmentation example] (https://github.com/ibm-granite/granite-vision-models/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
+(1) Image segmentation: [A notebook showing a segmentation example](https://github.com/ibm-granite/granite-vision-models/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
 
 (2) Doctags generation (please see [Docling project](https://github.com/docling-project/docling) for more details): TBD (notebook link)
 
