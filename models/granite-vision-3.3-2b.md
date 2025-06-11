@@ -3,7 +3,7 @@
 **Model Summary:** Granite-vision-3.3-2b is a compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following data, comprising diverse public and synthetic datasets tailored to support a wide range of document understanding and general image tasks. Granite-vision-3.3-2b was trained by fine-tuning a Granite large language model with both image and text modalities.
 
 
-**Evaluations:** We evaluated granite-vision-3.3-2b alongside other vision-language models (VLMs) in the 1B-4B parameter range using the standard llms-eval benchmark. The evaluation spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
+**Evaluations:** We compare the performance of granite-vision-3.3-2b with previous versions of granite-vision models. Evaluations were done using the standard llms-eval benchmark and spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
 
 | | GV-3.1-2b | GV-3.2-2b | GV-3.3-2b |
