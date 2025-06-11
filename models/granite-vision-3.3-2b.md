@@ -5,25 +5,23 @@
 
 **Evaluations:** We compare the performance of granite-vision-3.3-2b with previous versions of granite-vision models. Evaluations were done using the standard llms-eval benchmark and spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
-
 | | GV-3.1-2b-preview | GV-3.2-2b | GV-3.3-2b |
 |-----------|-----------|--------------|----------------|
 | **Document benchmarks** |
-| ChartQA | 0.86 | 0.87 | **0.87** (TBD) |
-| DocVQA | 0.88 | 0.89 | **0.91** (TBD)|
-| TextVQA | 0.76 | 0.78 | **0.80** (TBD)|
-| AI2D | 0.78 | 0.76 | 0.88(without mask) (TBD)|
-| InfoVQA | 0.63 | 0.64  | 0.69 (TBD) |
-| OCRBench | 0.75 | 0.77 | 0.80 (TBD) |
-| LiveXiv VQA | 0.61 | 0.61 | **XX** (TBD)|
-| LiveXiv TQA | 0.55 | 0.57 | **XX** (TBD)|
+| ChartQA | 0.86 | 0.87 | 0.87 |
+| DocVQA | 0.88 | 0.89 | **0.91** |
+| TextVQA | 0.76 | 0.78 | **0.80** |
+| AI2D | 0.78 | 0.76 | 0.73 |
+| InfoVQA | 0.63 | 0.64  | **0.68** |
+| OCRBench | 0.75 | 0.77 | **0.79** |
+| LiveXiv VQA v2 | 0.61 | 0.61 | 0.61 |
+| LiveXiv TQA v2 | 0.55 | 0.57 | 0.52 |
 | **Other benchmarks** |
-| MMMU | 0.35 | 0.37 | 0.37 (TBD)|
-| VQAv2 | 0.81 | 0.78 | **XX** (TBD)|
-| RealWorldQA | 0.65 | 0.63 | **0.68** (TBD)|
-| VizWiz VQA | 0.64 | 0.63 |  **0.66** (TBD)|
-| OK VQA | 0.57 | 0.56 | **0.60** (TBD)|
-
+| MMMU | 0.35 | 0.37 | 0.37 |
+| VQAv2 | 0.81 | 0.78 | 0.79 |
+| RealWorldQA | 0.65 | 0.63 | 0.63 |
+| VizWiz VQA | 0.64 | 0.63 |  0.62 |
+| OK VQA | 0.57 | 0.56 | 0.55|
 
 - **Paper:** [Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence](https://arxiv.org/abs/2502.09927). Note that the paper describes Granite Vision 3.2. Granite Vision 3.3 shares most of the technical underpinnings with Granite 3.2. However, there are several enhancements in terms of new and improved vision encoder, many new high quality datasets, and several new experimental capabilities.
 - **Release Date**: Jun 11th, 2025 
