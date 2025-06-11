@@ -141,8 +141,8 @@ The GV-3.3-2b model also went through safety alignment to make sure responses ar
 
 **RTVLM Safety Score - [0,10] - Higher is Better**
 
-| | Politics | Racial | Jailbreak | Mislead|
-|-----------|-----------|--------------|----------------|
+| | Politics | Racial | Jailbreak | Mislead |
+|-----------|-----------|--------------|----------------|----------------|
 |GV-3.1-2b-preview|7.2|7.7|4.5|7.6|
 |GV-3.2-2b|7.6|7.8|6.2|8.0|
 |GV-3.3-2b|8.0|8.1|7.5|8.0|
