@@ -6,7 +6,7 @@
 **Evaluations:** We compare the performance of granite-vision-3.3-2b with previous versions of granite-vision models. Evaluations were done using the standard llms-eval benchmark and spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
 
-| | GV-3.1-2b | GV-3.2-2b | GV-3.3-2b |
+| | GV-3.1-2b-preview | GV-3.2-2b | GV-3.3-2b |
 |-----------|-----------|--------------|----------------|
 | **Document benchmarks** |
 | ChartQA | 0.86 | 0.87 | **0.87** (TBD) |
