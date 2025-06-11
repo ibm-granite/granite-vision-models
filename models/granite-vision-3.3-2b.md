@@ -148,6 +148,15 @@ The GV-3.3-2b model also went through safety alignment to make sure responses ar
 |GV-3.3-2b|8.0|8.1|7.5|8.0|
 
 
+**VLGuard Safety Score - [0,10] - Higher is Better**
+
+| | Unsafe Images (Unsafe) | Safe Images with Unsafe Instructions |
+|-----------|-----------|--------------|
+|GV-3.1-2b-preview|6.6|8.4|
+|GV-3.2-2b|7.6|8.9|
+|GV-3.3-2b|8.4|9.3|
+
+
 ### Experimental capabilities
 
 Granite-vision-3.3-2b introduces two new experimental capabilities: 
