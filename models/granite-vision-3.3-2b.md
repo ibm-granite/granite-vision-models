@@ -134,11 +134,20 @@ print(f"Generated text: {outputs[0].outputs[0].text}")
 ```
 
 
-### Experimental capabilities
 
-Granite-vision-3.3-2b introduces two new experimental capabilities (1) Image segmentation, (2) Doctags generation (please see [Docling project](https://github.com/docling-project/docling) for more details). 
+### Safety evaluation
 
 TBD
+
+### Experimental capabilities
+
+Granite-vision-3.3-2b introduces two new experimental capabilities: 
+
+(1) Image segmentation: TBD (notebook link) 
+
+(2) Doctags generation (please see [Docling project](https://github.com/docling-project/docling) for more details): TBD (notebook link)
+
+
 
 ### Fine-tuning
 
