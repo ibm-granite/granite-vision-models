@@ -6,23 +6,23 @@
 **Evaluations:** We evaluated granite-vision-3.3-2b alongside other vision-language models (VLMs) in the 1B-4B parameter range using the standard llms-eval benchmark. The evaluation spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
 
-|  | Molmo-E | InternVL3-2b | Phi-4-Multimodal(5.6b) | GV-3.2-2b | GV-3.3-2b |
+| | GV-3.1-2b | GV-3.2-2b | GV-3.3-2b |
 |-----------|--------------|----------------|-------------|------------|------------|
 | **Document benchmarks** |
-| ChartQA | 0.60 | 0.80 | 0.81 | 0.87 | **0.87** |
-| DocVQA | 0.66 | 0.88 | **0.93** | 0.89 | 0.91 |
-| TextVQA | 0.62 | 0.77 | 0.76 | 0.78 | **0.80** |
-| AI2D | 0.63 | 0.79 | **0.82** | 0.76 | 0.88(without mask) |
-| InfoVQA | 0.44 | 0.66 | **0.73** | 0.64  | 0.69 |
-| OCRBench | 0.65 | **0.84** | **0.84** | 0.77 | 0.80 |
-| LiveXiv VQA | 0.47 | - | - | 0.61 | **XX** |
-| LiveXiv TQA | 0.36 | - | - | 0.57 | **XX** |
+| ChartQA | 0.86 | 0.87 | **0.87** |
+| DocVQA | 0.88 | 0.89 | **0.91** |
+| TextVQA |0.76 | 0.78 | **0.80** |
+| AI2D | 0.78 | 0.76 | 0.88(without mask) |
+| InfoVQA | 0.63 | 0.64  | 0.69 |
+| OCRBench | 0.75 | 0.77 | 0.80 |
+| LiveXiv VQA | 0.61 | 0.61 | **XX** |
+| LiveXiv TQA | 0.55 | 0.57 | **XX** |
 | **Other benchmarks** |
-| MMMU | 0.32 | 0.49 | 0.55 | 0.37 | 0.37 |
-| VQAv2 | 0.57 | - | - | 0.78 | **XX** |
-| RealWorldQA | 0.55 | 0.64 | - | 0.63 | **0.68** |
-| VizWiz VQA | 0.49 | - | - | 0.63 |  **0.66** |
-| OK VQA | 0.40 | - | - | 0.56 | **0.60** |
+| MMMU | 0.35 | 0.37 | 0.37 |
+| VQAv2 | 0.81 | 0.78 | **XX** |
+| RealWorldQA | 0.65 | 0.63 | **0.68** |
+| VizWiz VQA | 0.64 | 0.63 |  **0.66** |
+| OK VQA | 0.57 | 0.56 | **0.60** |
 
 
 - **Paper:** [Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence](https://arxiv.org/abs/2502.09927). Note that the paper describes Granite Vision 3.2. Granite Vision 3.3 shares most of the technical underpinnings with Granite 3.2. However, there are several enhancements in terms of new and improved vision encoder, many new high quality datasets, and several new experimental capabilities.
