@@ -159,12 +159,13 @@ The GV-3.3-2b model also went through safety alignment to make sure responses ar
 
 ### Experimental capabilities
 
-Granite-vision-3.3-2b introduces two new experimental capabilities: 
+Granite-vision-3.3-2b introduces three new experimental capabilities: 
 
 (1) Image segmentation: [A notebook showing a segmentation example](https://github.com/ibm-granite/granite-vision-models/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
 
 (2) Doctags generation (please see [Docling project](https://github.com/docling-project/docling) for more details): TBD (notebook link)
 
+(3) Multipage support: The model was trained to handle question answering (QA) tasks using multiple consecutive pages from a document—up to 10 pages—given the demands of long-context processing. To support such long sequences without exceeding GPU memory limits, we recommend resizing images so that their longer dimension is 768 pixels.
 
 
 ### Fine-tuning
