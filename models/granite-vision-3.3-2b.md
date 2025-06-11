@@ -104,7 +104,6 @@ model_path = "ibm-granite/granite-vision-3.3-2b"
 
 model = LLM(
     model=model_path,
-    limit_mm_per_prompt={"image": 1},
 )
 
 sampling_params = SamplingParams(
