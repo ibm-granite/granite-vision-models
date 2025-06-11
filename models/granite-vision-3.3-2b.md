@@ -11,7 +11,7 @@
 | **Document benchmarks** |
 | ChartQA | 0.86 | 0.87 | **0.87** (TBD) |
 | DocVQA | 0.88 | 0.89 | **0.91** (TBD)|
-| TextVQA |0.76 | 0.78 | **0.80** (TBD)|
+| TextVQA | 0.76 | 0.78 | **0.80** (TBD)|
 | AI2D | 0.78 | 0.76 | 0.88(without mask) (TBD)|
 | InfoVQA | 0.63 | 0.64  | 0.69 (TBD) |
 | OCRBench | 0.75 | 0.77 | 0.80 (TBD) |
