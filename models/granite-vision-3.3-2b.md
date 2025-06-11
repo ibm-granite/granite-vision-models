@@ -23,7 +23,7 @@
 | VizWiz VQA | 0.64 | 0.63 |  0.62 |
 | OK VQA | 0.57 | 0.56 | 0.55|
 
-- **Paper:** [Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence](https://arxiv.org/abs/2502.09927). Note that the paper describes Granite Vision 3.2. Granite Vision 3.3 shares most of the technical underpinnings with Granite 3.2. However, there are several enhancements in terms of new and improved vision encoder, many new high quality datasets, and several new experimental capabilities.
+- **Paper:** [Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence](https://arxiv.org/abs/2502.09927). Note that the paper describes Granite Vision 3.2. Granite Vision 3.3 shares most of the technical underpinnings with Granite 3.2. However, there are several enhancements in terms of new and improved vision encoder, many new high quality datasets for training, and several new experimental capabilities.
 - **Release Date**: Jun 11th, 2025 
 - **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -161,7 +161,7 @@ Granite-vision-3.3-2b introduces three new experimental capabilities:
 
 (1) Image segmentation: [A notebook showing a segmentation example](https://github.com/ibm-granite/granite-vision-models/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
 
-(2) Doctags generation (please see [Docling project](https://github.com/docling-project/docling) for more details): TBD (notebook link)
+(2) Doctags generation: Please see [Docling project](https://github.com/docling-project/docling) for more details on doctags.
 
 (3) Multipage support: The model was trained to handle question answering (QA) tasks using multiple consecutive pages from a document—up to 10 pages—given the demands of long-context processing. To support such long sequences without exceeding GPU memory limits, we recommend resizing images so that their longer dimension is 768 pixels.
 
@@ -185,7 +185,7 @@ For an example of MM-RAG using granite vision refer to [this notebook](https://g
 We built upon LLaVA (https://llava-vl.github.io) to train our model. We use multi-layer encoder features and a denser grid resolution in AnyRes to enhance the model's ability to understand nuanced visual content, which is essential for accurately interpreting document images. 
 
 
-**Training Data:**  Our training data is largely comprised of two key sources: (1) publicly available datasets (2) internally created synthetic data targeting specific capabilities including document understanding tasks. Granite Vision 3.3 training data is build upon the comprehensive dataset used for granite-vision-3.2-2b (a detailed description of granite-vision-3.2-2b training data is available in the [technical report](https://arxiv.org/abs/2502.09927)). In addition, granite-vision-3.3-2b further includes high quality image segmentation data, multi-page data, and data from several new high quality publicly available datasets (like Mammoth-12M and Bigdocs).  
+**Training Data:**  Our training data is largely comprised of two key sources: (1) publicly available datasets (2) internally created synthetic data targeting specific capabilities including document understanding tasks. Granite Vision 3.3 training data is built upon the comprehensive dataset used for granite-vision-3.2-2b (a detailed description of granite-vision-3.2-2b training data is available in the [technical report](https://arxiv.org/abs/2502.09927)). In addition, granite-vision-3.3-2b further includes high quality image segmentation data, multi-page data, and data from several new high quality publicly available datasets (like Mammoth-12M and Bigdocs).  
 
 
 **Infrastructure:** We train granite-vision-3.3-2b using IBM's super computing cluster, Blue Vela, which is outfitted with NVIDIA H100 GPUs. This cluster provides a scalable and efficient infrastructure for training our models over thousands of GPUs.
