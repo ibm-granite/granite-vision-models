@@ -6,8 +6,8 @@
 **Evaluations:** We evaluated granite-vision-3.3-2b alongside other vision-language models (VLMs) in the 1B-4B parameter range using the standard llms-eval benchmark. The evaluation spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
 
-| | GV-3.1-2b | GV-3.2-2b | GV-3.3-2b |
-|-----------|--------------|----------------|-------------|------------|------------|
+| GV-3.1-2b | GV-3.2-2b | GV-3.3-2b |
+|-----------|--------------|----------------|
 | **Document benchmarks** |
 | ChartQA | 0.86 | 0.87 | **0.87** |
 | DocVQA | 0.88 | 0.89 | **0.91** |
