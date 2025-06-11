@@ -29,7 +29,7 @@
 - **Release Date**: Jun 11th, 2025 
 - **License:** [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-**Supported Input Format:** Currently the model supports English instructions and images (png, jpeg, etc.) as input format. 
+**Supported Input Format:** Currently the model supports English instructions and images (png, jpeg) as input format. 
 
 **Intended Use:**  The model is intended to be used in enterprise applications that involve processing visual and text data. In particular, the model is well-suited for a range of visual document understanding tasks, such as analyzing tables and charts, performing optical character recognition (OCR), and answering questions based on document content. Additionally, its capabilities extend to general image understanding, enabling it to be applied to a broader range of business applications. For tasks that exclusively involve text-based input, we suggest using our Granite large language models, which are optimized for text-only processing and offer superior performance compared to this model.
 
