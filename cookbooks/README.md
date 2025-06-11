@@ -10,4 +10,6 @@ For an example of MM RAG using granite vision refer to [this notebook](https://g
 
 ### Segmentation
 
+For an example of referring segmentation using granite vision check out [this notebook](https://github.com/ibm-granite-community/granite-snack-cookbook/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
+
 ### Doctags
