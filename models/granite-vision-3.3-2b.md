@@ -1,19 +1,18 @@
 # granite-vision-3.3-2b
 
-**Model Summary:** Granite-vision-3.3-2b is a compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. The model was trained on a meticulously curated instruction-following data, comprising diverse public and synthetic datasets tailored to support a wide range of document understanding and general image tasks. Granite-vision-3.3-2b was trained by fine-tuning a Granite large language model with both image and text modalities.
-
+**Model Summary**: Granite-vision-3.3-2b is a compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more. Granite-vision-3.3-2b introduces several novel experimental features such as *image segmentation*, *doctags generation*, and *multi-page support* (see **Experimental Capabilities** for more details) and offers enhanced safety when compared to earlier Granite vision models. The model was trained on a meticulously curated instruction-following data, comprising diverse public and synthetic datasets tailored to support a wide range of document understanding and general image tasks. Granite-vision-3.3-2b was trained by fine-tuning a Granite large language model with both image and text modalities.
 
 **Evaluations:** We compare the performance of granite-vision-3.3-2b with previous versions of granite-vision models. Evaluations were done using the standard llms-eval benchmark and spanned multiple public benchmarks, with particular emphasis on document understanding tasks while also including general visual question-answering benchmarks. 
 
-| | GV-3.1-2b-preview | GV-3.2-2b | GV-3.3-2b |
+| | Granite-vision-3.1-2b-preview | Granite-vision-3.2-2b | Granite-vision-3.3-2b |
 |-----------|-----------|--------------|----------------|
 | **Document benchmarks** |
 | ChartQA | 0.86 | 0.87 | 0.87 |
-| DocVQA | 0.88 | 0.89 | **0.91** |
-| TextVQA | 0.76 | 0.78 | **0.80** |
+| DocVQA | 0.88 | 0.89 | 0.91 |
+| TextVQA | 0.76 | 0.78 | 0.80 |
 | AI2D | 0.78 | 0.76 | 0.77 |
-| InfoVQA | 0.63 | 0.64  | **0.68** |
-| OCRBench | 0.75 | 0.77 | **0.79** |
+| InfoVQA | 0.63 | 0.64  | 0.68 |
+| OCRBench | 0.75 | 0.77 | 0.79 |
 | LiveXiv VQA v2 | 0.61 | 0.61 | 0.61 |
 | LiveXiv TQA v2 | 0.55 | 0.57 | 0.52 |
 | **Other benchmarks** |
@@ -133,37 +132,37 @@ print(f"Generated text: {outputs[0].outputs[0].text}")
 
 
 
-### Safety evaluation
+### Safety Evaluation
 
-The GV-3.3-2b model also went through safety alignment to make sure responses are safer without affecting the model’s performance on its intended task. We carefully safety aligned the model on publicly available safety data and synthetically generated safety data. We report our safety scores on publicly available RTVLM and VLGuard datasets.
+The Granite-vision-3.3-2b model also went through safety alignment to make sure responses are safer without affecting the model’s performance on its intended task. We carefully safety aligned the model on publicly available safety data and synthetically generated safety data. We report our safety scores on publicly available RTVLM and VLGuard datasets.
 
 **RTVLM Safety Score - [0,10] - Higher is Better**
 
 | | Politics | Racial | Jailbreak | Mislead |
 |-----------|-----------|--------------|----------------|----------------|
-|GV-3.1-2b-preview|7.2|7.7|4.5|7.6|
-|GV-3.2-2b|7.6|7.8|6.2|8.0|
-|GV-3.3-2b|8.0|8.1|7.5|8.0|
+|Granite-vision-3.1-2b-preview|7.2|7.7|4.5|7.6|
+|Granite-vision-3.2-2b|7.6|7.8|6.2|8.0|
+|Granite-vision-3.3-2b|8.0|8.1|7.5|8.0|
 
 
 **VLGuard Safety Score - [0,10] - Higher is Better**
 
 | | Unsafe Images (Unsafe) | Safe Images with Unsafe Instructions |
 |-----------|-----------|--------------|
-|GV-3.1-2b-preview|6.6|8.4|
-|GV-3.2-2b|7.6|8.9|
-|GV-3.3-2b|8.4|9.3|
+|Granite-vision-3.1-2b-preview|6.6|8.4|
+|Granite-vision-3.2-2b|7.6|8.9|
+|Granite-vision-3.3-2b|8.4|9.3|
 
 
-### Experimental capabilities
+### Experimental Capabilities
 
 Granite-vision-3.3-2b introduces three new experimental capabilities: 
 
 (1) Image segmentation: [A notebook showing a segmentation example](https://github.com/ibm-granite/granite-vision-models/blob/main/cookbooks/GraniteVision_Segmentation_Notebook.ipynb)
 
-(2) Doctags generation: Please see [Docling project](https://github.com/docling-project/docling) for more details on doctags.
+(2) Doctags generation: Parse document images to structured text in doctags format. Please see [Docling project](https://github.com/docling-project/docling) for more details on doctags.
 
-(3) Multipage support: The model was trained to handle question answering (QA) tasks using multiple consecutive pages from a document—up to 10 pages—given the demands of long-context processing. To support such long sequences without exceeding GPU memory limits, we recommend resizing images so that their longer dimension is 768 pixels.
+(3) Multipage support: The model was trained to handle question answering (QA) tasks using multiple consecutive pages from a document—up to 8 pages—given the demands of long-context processing. To support such long sequences without exceeding GPU memory limits, we recommend resizing images so that their longer dimension is 768 pixels.
 
 
 ### Fine-tuning
@@ -198,3 +197,4 @@ We built upon LLaVA (https://llava-vl.github.io) to train our model. We use mult
 - ⭐️ Learn about the latest updates with Granite: https://www.ibm.com/granite
 - 🚀 Get started with tutorials, best practices, and prompt engineering advice: https://www.ibm.com/granite/docs/
 - 💡 Learn about the latest Granite learning resources: https://ibm.biz/granite-learning-resources
+
