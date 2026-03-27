@@ -19,7 +19,7 @@ This repository provides documentation, examples, and pointers to available mode
 
 ## 🚀 Latest Release: Granite‑4.0‑3B‑Vision
 
-[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
+[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite/granite-4.0-3b-vision) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
 
 It supports:
 
