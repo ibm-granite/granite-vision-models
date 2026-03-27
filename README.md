@@ -3,8 +3,11 @@
 </p>
 
 <p align="center">
-  :books: <a href="https://arxiv.org/abs/2502.09927">Paper</a>&nbsp | :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800">HuggingFace Collection</a>&nbsp | 
-  :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp
+  :books: <a href="https://arxiv.org/abs/2502.09927">Granite Vision Paper</a>&nbsp; |  
+  :chart_with_upwards_trend: <a href="https://github.com/ibm-granite/granite-vision-models/blob/main/ChartNet_ArXiv.pdf">ChartNet Paper (PDF)</a> &nbsp; |  
+  :bar_chart: <em>ArXiv link coming soon</em> &nbsp; |  
+  :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800">HuggingFace Collection</a>&nbsp; | 
+  :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp;
 </p>
 
 # Granite Vision Models
@@ -16,7 +19,7 @@ This repository provides documentation, examples, and pointers to available mode
 
 ## 🚀 Latest Release: Granite‑4.0‑3B‑Vision
 
-[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite/granite-4.0-3b-vision) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
+[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
 
 It supports:
 
@@ -78,7 +81,7 @@ https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90
 
 Select the model repository you would like to provide feedback about, go to the **Community** tab, and click **New discussion**.
 
-Alternatively, you can also post questions or comments on our GitHub discussions page:  
+Alternatively, you may also post questions or comments on our GitHub discussions page:  
 https://github.com/orgs/ibm-granite/discussions
 
 ---
@@ -99,3 +102,5 @@ To enhance safety, we recommend using Granite Vision models **alongside Granite 
 
 Issues and pull requests are welcome.  
 Please open a GitHub issue to report bugs or suggest enhancements.
+
+``
