@@ -62,8 +62,6 @@ Older Granite Vision models remain available for users who rely on earlier relea
 - **Granite Vision 3.3 (GGUF‑converted)**  
   https://huggingface.co/ibm-granite/granite-vision-3.3-2b-GGUF
 
-- **Granite Vision 3.2 (Preview, gated)**  
-  https://huggingface.co/ibm-granite/granite-vision-3.2-2b-preview
 
 ---
 
