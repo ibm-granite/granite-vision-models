@@ -17,35 +17,12 @@ This repository provides documentation, examples, and pointers to available mode
 
 ---
 
-## 🚀 Latest Release: Granite‑4.0‑3B‑Vision
+## 🚀 Latest Release: Granite‑4.0‑3B‑Vision (Coming Soon)
 
-[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite/granite-4.0-3b-vision) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
 
-It supports:
 
-- **Chart extraction** — Chart‑to‑CSV, Chart‑to‑Summary, Chart‑to‑Code  
-- **Table extraction** — JSON, HTML, and OTSL  
-- **Semantic KVP extraction** — Schema‑guided extraction across diverse document layouts  
-- **Image‑to‑text** — Natural‑language descriptions of images  
+## 📊 ChartNet Dataset (Coming Soon)
 
-Granite‑4.0‑3B‑Vision preserves and extends Granite Vision 3.3 capabilities while providing more specialized extraction workflows.
-
----
-
-## 📊 ChartNet Dataset
-
-**ChartNet** is a million‑scale multimodal dataset created to support robust chart understanding tasks:  
-➡️ https://huggingface.co/datasets/ibm-granite/ChartNet
-
-It includes:
-
-- **1.7M** synthetic charts with aligned images, code, tables, summaries, and reasoning  
-- **94,643** human‑verified charts  
-- **2,000** human‑verified test samples  
-- **24 chart types**, across **6 plotting libraries**  
-
-ChartNet uses a **code‑guided synthesis pipeline**, producing tightly aligned visual, numerical, and textual components.  
-It was used during training for Granite‑4.0‑3B‑Vision.
 
 ---
 
