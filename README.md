@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="figures/granite_vision_repo_headbar.png" />
-</p>
-
-<p align="center">
   :books: <a href="https://arxiv.org/abs/2502.09927">Granite Vision Paper</a>&nbsp; |  
   :chart_with_upwards_trend: <a href="https://github.com/ibm-granite/granite-vision-models/blob/main/ChartNet_ArXiv.pdf">ChartNet Paper (PDF)</a> &nbsp; |  
   :bar_chart: <em>ArXiv link coming soon</em> &nbsp; |  
