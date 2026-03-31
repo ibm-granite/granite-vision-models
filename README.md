@@ -1,7 +1,6 @@
 <p align="center">
-  :books: <a href="https://arxiv.org/abs/2502.09927">Granite Vision Paper</a>&nbsp; |  
-  :chart_with_upwards_trend: <a href="https://github.com/ibm-granite/granite-vision-models/blob/main/ChartNet_ArXiv.pdf">ChartNet Paper (PDF)</a> &nbsp; |  
-  :bar_chart: <em>ArXiv link coming soon</em> &nbsp; |  
+  :books: <a href="https://arxiv.org/abs/2502.09927">Granite Vision Paper</a>&nbsp; |    
+  :bar_chart: <a href="https://arxiv.org/abs/2603.27064"> <em>ArXiv</em> &nbsp; |  
   :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-vision-models-67b3bd4ff90c915ba4cd2800">HuggingFace Collection</a>&nbsp; | 
   :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp;
 </p>
