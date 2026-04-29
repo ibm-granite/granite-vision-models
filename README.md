@@ -14,7 +14,7 @@ This repository provides documentation, examples, and pointers to available mode
 
 ## 🚀 Latest Release: Granite‑4.0‑3B‑Vision 
 
-[Granite‑4.0‑3B‑Vision](https://huggingface.co/ibm-granite/granite-4.0-3b-vision) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite‑4.0‑Micro.
+[Granite‑Vision-4.1‑4B](https://huggingface.co/ibm-granite/granite-vision-4.1-4b) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite-4.1-3B.
 
 It supports:
 
@@ -23,7 +23,7 @@ It supports:
 - **Semantic KVP extraction** — Schema‑guided extraction across diverse document layouts  
 - **Image‑to‑text** — Natural‑language descriptions of images  
 
-Granite‑4.0‑3B‑Vision preserves and extends Granite Vision 3.3 capabilities while providing more specialized extraction workflows.
+Granite‑Vision-4.1‑4B preserves and extends Granite Vision 4 capabilities while providing more specialized extraction workflows.
 
 ---
 
@@ -40,13 +40,16 @@ It includes:
 - **24 chart types**, across **6 plotting libraries**  
 
 ChartNet uses a **code‑guided synthesis pipeline**, producing tightly aligned visual, numerical, and textual components.  
-It was used during training for Granite‑4.0‑3B‑Vision.
+It was used during training for Granite‑Vision-4.1‑4B.
 
 ---
 
 ## 📚 Legacy Granite Vision Models
 
 Older Granite Vision models remain available for users who rely on earlier releases:
+
+- **Granite Vision 4 (3B)**  
+  https://huggingface.co/ibm-granite/granite-4.0-3b-vision
 
 - **Granite Vision 3.3 (2B)**  
   https://huggingface.co/ibm-granite/granite-vision-3.3-2b
