@@ -12,7 +12,7 @@ This repository provides documentation, examples, and pointers to available mode
 
 ---
 
-## 🚀 Latest Release: Granite‑4.0‑3B‑Vision 
+## 🚀 Latest Release: Granite‑Vision-4.1‑4B 
 
 [Granite‑Vision-4.1‑4B](https://huggingface.co/ibm-granite/granite-vision-4.1-4b) is a vision‑language model tailored for **enterprise document data extraction**, delivered as a **LoRA adapter** on top of Granite-4.1-3B.
 
